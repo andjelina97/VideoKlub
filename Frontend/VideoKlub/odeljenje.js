@@ -84,7 +84,7 @@ export class Odeljenje {
             let sel=document.createElement("select");
             sel.className=klase[ind];
             kord.appendChild(sel);
-            for(let i=1; i<vrednosti[ind]; i++)
+            for(let i=1; i<=vrednosti[ind]; i++)
             {
                 el=document.createElement("option");
                 el.innerHTML=i;

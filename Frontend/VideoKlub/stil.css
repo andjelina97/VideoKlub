@@ -43,6 +43,7 @@
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
@@ -71,8 +72,7 @@
    margin-top:5px;
    margin-left: 5px;
    margin-right: 10px;
-    border: 0;
-    min-width: 180px;
+   border: 0;
    padding-bottom: 5px;
    padding-top: 10px;
    padding-left: 10px;
@@ -124,6 +124,7 @@
 
 }
 
+
 .naslovFilm {
     text-align: center;
     font-size: 18px;
@@ -161,7 +162,7 @@
 }
 .dugmeInfo:focus, .dugme:focus {
     outline: none;
-    background-color: #7e7e7e;
+    background-color: #444547c9;
     color: #fff;
 }
 
@@ -173,7 +174,7 @@
 
 .infoNaslov{
     font-family: "Open Sans", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 10px rgb(2, 2, 1);
@@ -181,7 +182,7 @@
 
 .info{
     font-family: "Open Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 10px rgb(2, 2, 1);
